@@ -2,6 +2,8 @@
 
 A Hubot script that rolls dice
 
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140924/20140924234801.gif)
+
 ## Installation
 
     $ npm install git://github.com/bouzuya/hubot-dice.git
