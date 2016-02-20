@@ -14,6 +14,6 @@ module.exports = (robot) ->
   robot.respond /(\d+)d(\d+)$/i, (res) ->
     m = res.match[1]
     n = res.match[2]
-    res.send [0...m].reduce (s) ->
+    res.send '' + [0...m].reduce (s) ->
       s + Math.floor(Math.random() * n) + 1
     , 0
